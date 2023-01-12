@@ -1,0 +1,35 @@
+Iprep Topics:
+-------------
+
+PHASE_1:
+--------
+1) Resume
+  - Resume(Prep)
+  - Resume Stories
+  - Behavioral
+    - Amazon Leadership principles
+    - Stories about ***
+
+2) Language
+  - CPP
+  - C
+  - Python (Basics)
+  - TCL(Basics)
+
+3) Domain
+  - Domain Knowledge
+  - Basics of Telecom
+  - Stories about all projects
+  - <TBD>
+
+4) Algorithms (Basics)
+  - HashTable (STL: map, unordered_map)
+  - LinkedList (STL: List)
+  - Array (STL: Vector)
+  - Stack (STL: Stack)
+  - Queue (STL: Queue)
+  - Sorting(5 Sorting Algos)
+
+PHASE_2:
+--------
+
