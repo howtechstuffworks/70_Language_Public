@@ -1,8 +1,5 @@
 Iprep Topics:
 -------------
-
-PHASE_1:
---------
 1) Resume
   - Resume(Prep)
   - Resume Stories
@@ -29,7 +26,3 @@ PHASE_1:
   - Stack (STL: Stack)
   - Queue (STL: Queue)
   - Sorting(5 Sorting Algos)
-
-PHASE_2:
---------
-
