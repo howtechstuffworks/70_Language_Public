@@ -1,0 +1,21 @@
+IPrep Topics 2:
+----------------
+1) Systems
+  - Network (Basics)
+  - Operating Systems (Basics)
+  - Computer Architecture (Basics)
+
+2) Design
+  - System Design (Grokking)
+  - OOPS Design (Leetcode)
+  
+3) Languages
+  - CPP (Advanced)
+  - C (Advanced)
+
+4) Algorithm
+  - Arrays (& Manipulation)
+  - Linked List
+  - Trees & Tree Algorithms
+  - BFS, DFS, Binary Search
+  - Heap (Min & Max)
