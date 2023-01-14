@@ -1,0 +1,41 @@
+---------------------------------------------------------------------------------------------------
+1) auto
+2) global
+3) static
+4) static global
+5) extern
+6) Volatile
+---------------------------------------------------------------------------------------------------
+1) auto
+  - Scope: Inside the braces
+  - Stored: In Stack
+  - Not to be confused with auto keyword in C++
+2) global
+  - Scope: lifetime of the program
+  - Stored: In Data Segment
+  - Accesible: Can be accessed anywhere in the program using 'extern' keyword
+3) static
+  - Scope: lifetime of the program
+  - Stored: In Data Segment
+  - Accesible: Inside the function it is defined
+4) static global
+  - Scope: lifetime of the program
+  - Stored: In Data Segment
+  - Accesible: Only inside the file it was defined
+5) extern
+  - Does not define a variable, only declares it.
+  - When a global variable is defined in a source file(.c or .cpp) and you access it out of the file
+    it will throw a compilation error. But you can declare it using extern keyword.
+  - It is a promise to the compiler that this variable is defined in someother source file.
+  - If it is not defined as promised, compiler will throw an error at linking time.
+6) Volatile
+  - When a variable is declared as volatile, when reading a memory compiler will always read from
+    memory instead of cache.
+  - Used mostly in embedded system where multiple sources(processors) might write to the same memory
+    location.
+---------------------------------------------------------------------------------------------------
+SideNotes:
+----------
+  - Never define a variable in header file(.h or .hpp)
+---------------------------------------------------------------------------------------------------
+https://www.geeksforgeeks.org/memory-layout-of-c-program/
